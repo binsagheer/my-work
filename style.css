@@ -1,0 +1,49 @@
+
+         /* Tooltip Styles */
+         .tooltip {
+            position: absolute;
+            display: none;
+            padding: 5px 10px;
+            background-color: #333;
+            color: #fff;
+            font-size: 25px;
+            border-radius: 4px;
+            pointer-events: none;
+            z-index: 1100;
+        }
+
+
+
+        @media (max-width: 480px) {
+        .tooltip {
+          display: none !important;
+        }
+      }
+    /* Custom CSS */
+    .social-icons {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 16px;
+      margin-top: 12px;
+    }
+
+    .social-icons a {
+      width: 38px;
+      height: 38px;
+      background-color: black;
+      color: white !important;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      padding: 12px;
+      text-decoration: none;
+      font-size: 24px;
+    }
+
+    .social-icons a:hover {
+      opacity: 0.8; /* Optional hover effect */
+    }
+      
+     
